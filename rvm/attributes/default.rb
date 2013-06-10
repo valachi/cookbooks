@@ -24,7 +24,7 @@ default['rvm']['default_ruby']      = "ruby-1.9.3-p327"
 default['rvm']['user_default_ruby'] = "ruby-1.9.3-p327"
 
 # list of additional rubies that will be installed
-default['rvm']['rubies']      = ["2.0.0-p0", "2.0.0-rc2"]
+default['rvm']['rubies']      = []
 default['rvm']['user_rubies'] = []
 
 # list of gems to be installed in global gemset of all rubies
